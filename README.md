@@ -9,7 +9,7 @@ Não é incomum a ocorrência de erros em aulas de laboratório que envolvem amp
 Este projeto visa desenvolver e montar um hardware capaz de testar a funcionalidade de um amplificador operacional, para a facilitação de aulas práticas. Ele será feito para funcionar com os modelos utilizados no IFSC – campus Florianópolis: LM324, LM741, TL082. Se um outro Amp-OP tiver o mesmo pinout de um dos citados, e sua tensão de alimentação maxima não for menor que a utilizada, o hardware também será capaz de testar a funcionalidade deste.
 
 ### Flowchart do projeto
-![FlowChart](./imagens/FlowChart.png)
+![FlowChart](./Imagens/FlowChart.png)
 
 ### Referencias
--Ainda não há nenhuma
+- Ainda não há nenhuma
