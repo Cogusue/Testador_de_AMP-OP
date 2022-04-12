@@ -15,7 +15,7 @@ Este projeto visa desenvolver e montar um hardware capaz de testar a funcionalid
 
 ### Componentes
 Componente                   | Quantidade
------------------------------------------
+---------------------------  |-------------------
 TL7660                       | 1
 LM7805                       | 1
 LM7905                       | 1
