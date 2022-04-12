@@ -11,5 +11,19 @@ Este projeto visa desenvolver e montar um hardware capaz de testar a funcionalid
 ### Flowchart do projeto
 ![FlowChart](./Imagens/FlowChart.png)
 
-### Referencias
+## Desenvolvimento do Projeto
+
+### Alimentação
+Foi decidido que o projeto deveria poder alimentar os Amp-OPs com tensões simetricas e assimetricas de 9 e 5 volts. Isso foi feito usando uma fonte de 9V, um tl7660 para criar a tensão negativa, e dois reguladores lineares (o lm7805 e lm7905) para reduzir essas tensões para +/-5V. No final, dois botões farão o controle de qual modelo de aimentação o circuito irá fornecer ao Amp-OP.
+
+Começamos com uma simulação feita no LTspice, utilizando componentes equivalentes aos citados, dado que o LTspice não tem eles.
+![Simulação Fonte](./Imagens/Simulação Fonte.png)
+
+Fizemos então a montagem em protoboard, e fizemos os testes necessarios, para averiguar se as saídas eram como esperavamos.
+(Inserir fotos)
+
+Por fim começamos a fazer o esquematico do circuito, utilizando o software Kikad.
+(Inserir fotos)
+
+## Referencias
 - Ainda não há nenhuma
