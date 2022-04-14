@@ -37,3 +37,5 @@ Aqui há uma imagem da montagem em protoboard. Os resultados dos testes foram o 
 
 Aqui há uma imagem do esquemático. Foi feito usando o Kikad.
 ![Esquematico_Fonte](./Imagens/Esquematico_Fonte.png)
+
+A simulação e os testes foram inicialmente feitos sem carga. Após fazermos um teste de carga, percebemos que o tl7660 começa a sofrer grandes alterções na tensão de saída se a corrente fornecida passa de 20 mA. Assim, está definido que esta é a corrente negativa maxima do circuito.
