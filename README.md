@@ -10,7 +10,6 @@ Este projeto visa desenvolver e montar um hardware capaz de testar a funcionalid
 
 ### Flowchart do projeto
 ![FlowChart](./Imagens/FlowChart.png)
-ALTERAR PARA SE ENCAIXAR MELHOR NA IDEIA
 
 ## Desenvolvimento do Projeto
 
@@ -45,7 +44,6 @@ Foi decidido que o projeto deveria poder alimentar os Amp-OPs com tensões simé
 Utilizando o proteus e o Kikad, fez-se a simulação do circuito e o esquematico.
 ![Simulação_Fonte](./Imagens/Simulação_Fonte.png)
 ![Esquematico_Fonte](./Imagens/Esquematico_Fonte.png)
-ALTERAR PARA PROTEUS
 
 Em protoboard foi-se montado o circuito. Os resultados dos testes foram o esperado.
 ![Montagem_Fonte](./Imagens/Montagem_Fonte.jpg)
@@ -65,7 +63,8 @@ Corrente de saída | Tensão de saída do tl7660
 Foi decidido que o projeto deveria ser capaz de proteger o Amp-OP e a si mesmo em caso de um amplificador curto-circuitado fosse testado. Assim, decidimos que limitariamos a corrente positiva à 100 mA e a negativa à 20mA. Isso foi feito usando transistores (BC548 e BC558) em modo de chaveamento, um tiristor e um relé, junto com um LED de aviso e um botão de reset.
 
 Assim como na alimentação, utilizamos os softwares Proteus e Kikad para, respectivamente, reazlizar a simulação e montar o esquematico.
-INSERIR FOTOS
+![Simulação_Proteção](./Imagens/Simulação_Proteção.png)
+![Esquematico_Proteção](./Imagens/Esquematico_Proteção.png)
 
 Inumeros testes em protoboard foram feitos ao longo da projeção desta parte do circuito, até que se chegasse em um resultado satisfatorio.
-INSERIR FOTOS
+![Montagem_Proteção](./Imagens/Montagem_Proteção.jpg)
