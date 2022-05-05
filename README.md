@@ -10,6 +10,7 @@ Este projeto visa desenvolver e montar um hardware capaz de testar a funcionalid
 
 ### Flowchart do projeto
 ![FlowChart](./Imagens/FlowChart.png)
+#ALTERAR PARA SE ENCAIXAR MELHOR NA IDEIA
 
 ## Desenvolvimento do Projeto
 
@@ -26,18 +27,28 @@ Capacitor Cerâmico 100 nF    | 1
 Jack Fêmea P4                | 1
 Soquete Zif 40 pinos         | 1
 Push Botton Switch DPDT      | 2
+BC548                        | 2
+BC558                        | 3
+Resistor 50k                 | 5
+Resistor 100                 | 4
+Resistor 30 (1W)             | 1
+Resistor 6 (1W)              | 1
+1N4007                       | 3
+LED Vermelho                 | 1
+TIC106                       | 1
+Relé 12V                     | 1
+Push Button                  | 1
 
 ### Alimentação
-Foi decidido que o projeto deveria poder alimentar os Amp-OPs com tensões simétricas e assimétricas de 9 e 5 volts. Isso foi feito usando uma fonte de 9V, um tl7660 para criar a tensão negativa, e dois reguladores lineares (o lm7805 e lm7905) para reduzir essas tensões para +/-5V. No final, dois botões farão o controle de qual modelo de alimentação o circuito irá fornecer ao Amp-OP.
+Foi decidido que o projeto deveria poder alimentar os Amp-OPs com tensões simétricas e assimétricas de 9 e 5 volts. Isso foi feito usando uma fonte de 9V, um tl7660 para a tensão negativa, e dois reguladores lineares (o lm7805 e lm7905) para redução daa tensões para +/-5V. No final, dois botões farão o controle de qual modelo de alimentação o circuito irá fornecer ao Amp-OP.
 
-Aqui há uma imagem da simulação. Está foi feita no LTspice, que dado sua falta de certos componentes, tivemos de simular com componentes equivalentes.
+Utilizando o proteus e o Kikad, fez-se a simulação do circuito e o esquematico.
 ![Simulação_Fonte](./Imagens/Simulação_Fonte.png)
-
-Aqui há uma imagem da montagem em protoboard. Os resultados dos testes foram o esperado.
-![Montagem_Fonte](./Imagens/Montagem_Fonte.jpg)
-
-Aqui há uma imagem do esquemático. Foi feito usando o Kikad.
 ![Esquematico_Fonte](./Imagens/Esquematico_Fonte.png)
+#ALTERAR PARA PROTEUS
+
+Em protoboard foi-se montado o circuito. Os resultados dos testes foram o esperado.
+![Montagem_Fonte](./Imagens/Montagem_Fonte.jpg)
 
 A simulação e os testes foram inicialmente feitos sem carga. Após fazermos um teste de carga, percebemos que o tl7660 começa a sofrer grandes alterções na tensão de saída se a corrente fornecida passa de 20 mA. Assim, está definido que esta é a corrente negativa maxima do circuito. Abaixo há uma tabela com os resutados:
 
@@ -49,3 +60,12 @@ Corrente de saída | Tensão de saída do tl7660
 -17,1 mA          | -8,20 V
 -25,9 mA          | -7,60 V
 -52,0 mA          | -6,65 V
+
+### Proteção
+Foi decidido que o projeto deveria ser capaz de proteger o Amp-OP e a si mesmo em caso de um amplificador curto-circuitado fosse testado. Assim, decidimos que limitariamos a corrente positiva à 100 mA e a negativa à 20mA. Isso foi feito usando transistores (BC548 e BC558) em modo de chaveamento, um tiristor e um relé, junto com um LED de aviso e um botão de reset.
+
+Assim como na alimentação, utilizamos os softwares Proteus e Kikad para, respectivamente, reazlizar a simulação e montar o esquematico.
+#INSERIR FOTOS
+
+Inumeros testes em protoboard foram feitos ao longo da projeção desta parte do circuito, até que se chegasse em um resultado satisfatorio.
+#INSERIR FOTOS
