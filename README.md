@@ -43,6 +43,7 @@ Foi decidido que o projeto deveria poder alimentar os Amp-OPs com tensões simé
 
 Utilizando o proteus e o Kikad, fez-se a simulação do circuito e o esquematico.
 ![Simulação_Fonte](./Imagens/Simulação_Fonte.jpeg)
+![Esquematico_Entrada](./Imagens/Esquematico_Entrada.png)
 ![Esquematico_Fonte](./Imagens/Esquematico_Fonte.png)
 
 Em protoboard foi-se montado o circuito. Os resultados dos testes foram o esperado.
