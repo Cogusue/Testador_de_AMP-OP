@@ -42,7 +42,7 @@ Push Button                  | 1
 Foi decidido que o projeto deveria poder alimentar os Amp-OPs com tensões simétricas e assimétricas de 9 e 5 volts. Isso foi feito usando uma fonte de 9V, um tl7660 para a tensão negativa, e dois reguladores lineares (o lm7805 e lm7905) para redução daa tensões para +/-5V. No final, dois botões farão o controle de qual modelo de alimentação o circuito irá fornecer ao Amp-OP.
 
 Utilizando o proteus e o Kikad, fez-se a simulação do circuito e o esquematico.
-![Simulação_Fonte](./Imagens/Simulação_Fonte.png)
+![Simulação_Fonte](./Imagens/Simulação_Fonte.jpeg)
 ![Esquematico_Fonte](./Imagens/Esquematico_Fonte.png)
 
 Em protoboard foi-se montado o circuito. Os resultados dos testes foram o esperado.
@@ -63,7 +63,7 @@ Corrente de saída | Tensão de saída do tl7660
 Foi decidido que o projeto deveria ser capaz de proteger o Amp-OP e a si mesmo em caso de um amplificador curto-circuitado fosse testado. Assim, decidimos que limitariamos a corrente positiva à 100 mA e a negativa à 20mA. Isso foi feito usando transistores (BC548 e BC558) em modo de chaveamento, um tiristor e um relé, junto com um LED de aviso e um botão de reset.
 
 Assim como na alimentação, utilizamos os softwares Proteus e Kikad para, respectivamente, reazlizar a simulação e montar o esquematico.
-![Simulação_Proteção](./Imagens/Simulação_Proteção.png)
+![Simulação_Proteção](./Imagens/Simulação_Proteção.jpeg)
 ![Esquematico_Proteção](./Imagens/Esquematico_Proteção.png)
 
 Inumeros testes em protoboard foram feitos ao longo da projeção desta parte do circuito, até que se chegasse em um resultado satisfatorio.
