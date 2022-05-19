@@ -21,27 +21,27 @@ Soquete Zif 40 pinos         | 1
 Relé 12V                     | 1
 LED Vermelho                 | 1
 LED Verde                    | 14
-                             |
+.                            |
 TL7660                       | 1
 LM7805                       | 1
 LM7905                       | 1
-                             |
+.                            |
 Botton Switch DPDT           | 2
 Button Switch SPST           | 1
 Push Button                  | 1
-                             |
+.                             |
 TIC106                       | 1
 SS14                         | 1
 1N4007                       | 3
 BC548                        | 2
 BC558                        | 3
 2N7002                       | 21
-                             |
+.                            |
 Capacitor Eletrolítico 10 uF | 2
 Capacitor Eletrolítico 1 uF  | 2
 Capacitor Cerâmico 330 nF    | 1
 Capacitor Cerâmico 100 nF    | 8
-                             |
+.                            |
 Resistor 5M                  | 7
 Resistor 50k                 | 26
 Resistor 10k                 | 14
