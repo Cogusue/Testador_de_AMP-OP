@@ -37,13 +37,13 @@ BC548                        | 2
 BC558                        | 3
 2N7002                       | 21
 .                            |
-Capacitor Eletrolítico 10 uF | 5
+Capacitor Eletrolítico 10 uF | 3
 Capacitor Eletrolítico 1 uF  | 2
 Capacitor Cerâmico 330 nF    | 1
-Capacitor Cerâmico 100 nF    | 10
+Capacitor Cerâmico 100 nF    | 8
 .                            |
 Resistor 5M                  | 7
-Resistor 50k                 | 26
+Resistor 50k                 | 19
 Resistor 10k                 | 14
 Resistor 100                 | 18
 Resistor 30 (1W)             | 1
