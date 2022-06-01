@@ -91,6 +91,5 @@ Assim como na alimentação, utilizamos os softwares Proteus e Kikad para, respe
 ![Esquematico_LEDs](./Imagens/Esquematico_LEDs.png)
 
 
-Foi-se então feito teste com um dos Amp-OPs a serem utilizados, inicialmente os teste foram feitos separadamente do resto do circuito, e em seguida foram realizados testes do circuito por completo.
-![Montagem_Oscilador](./Imagens/Montagem_Oscilador.jpg)
-![Montagem_Circuito](./Imagens/Montagem_Circuito.jpg)
+Foi-se então feito teste com um dos Amp-OPs a serem utilizados. Nos testes foi-se notado a necessidade de um filtro
+![Montagem_Oscilador](./Imagens/Montagem_Oscilador.jpeg)
