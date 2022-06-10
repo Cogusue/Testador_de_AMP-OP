@@ -23,41 +23,41 @@ Desenho do esquemático;
 Em seguida foi-se feito um teste com todos os blocos junto, e seguiu-se para a projeção da PCB do circuito.
 
 ### Componentes
-Componente                   | Quantidade
----------------------------  |-------------------
-Jack Fêmea P4                | 1
-Soquete Zif 40 pinos         | 1
-Relé 12V                     | 1
-LED Vermelho                 | 1
-LED Verde                    | 14
-.                            |
-TL7660                       | 1
-LM7805                       | 1
-LM7905                       | 1
-.                            |
-Botton Switch DPDT           | 2
-Button Switch SPST           | 1
-Push Button                  | 1
-.                             |
-TIC106                       | 1
-SS14                         | 1
-1N4007                       | 3
-BC548                        | 2
-BC558                        | 3
-2N7002                       | 21
-.                            |
-Capacitor Eletrolítico 10 uF | 3
-Capacitor Eletrolítico 1 uF  | 2
-Capacitor Cerâmico 330 nF    | 1
-Capacitor Cerâmico 100 nF    | 8
-.                            |
-Resistor 10M                 | 7
-Resistor 50k                 | 19
-Resistor 10k                 | 14
-Resistor 5k                  | 7
-Resistor 100                 | 18
-Resistor 30 (5W)             | 1
-Resistor 6 (5W)              | 1
+Componente                           | Quantidade
+-----------------------------------  |-------------------
+Jack Fêmea P4                        | 1
+Soquete Zif 40 pinos                 | 1
+Relé 12V                             | 1
+LED Vermelho (5mm)                   | 1
+LED Verde (5mm)                      | 14
+.                                    |
+TL7660                               | 1
+LM7805                               | 1
+LM7905                               | 1
+.                                    |
+Button Switch DPDT                   | 2
+Button Switch SPST                   | 1
+Push Button                          | 1
+.                                    |
+C106DG                               | 1
+SS14*                                | 1
+1N4007*                              | 3
+BC548 XXX                            | 2
+BC558 XXX                            | 3
+2N7002                               | 21
+.                                    |
+Capacitor Eletrolítico 10 uF         | 3
+Capacitor Eletrolítico 1 uF          | 2
+Capacitor Cerâmico 330 nF (smd 0805) | 1
+Capacitor Cerâmico 100 nF (smd 0805) | 8
+.                                    |
+Resistor 10M (smd 0805)              | 7
+Resistor 50k (smd 0805)              | 19
+Resistor 10k (smd 0805)              | 14
+Resistor 5k (smd 0805)               | 7
+Resistor 100 (smd 0805)              | 18
+Resistor 30 (5W)                     | 1
+Resistor 6 (5W)                      | 1
 
 
 ### Alimentação
